@@ -1,7 +1,7 @@
 Algoritmo ejercicio6extra
 	Definir n,v1,i Como Entero
 	
-	escribir "tamaÒo vector:"
+	escribir "tama√±o vector:"
 	leer n
 	
 	dimension v1[n]
@@ -11,7 +11,7 @@ Algoritmo ejercicio6extra
 		leer v1[i]
 	FinPara
 	
-	Escribir "Diferencia entre el vector m·s chico y m·s grande:" llamada(v1,n)
+	Escribir "Diferencia entre el vector m√°s chico y m√°s grande:" llamada(v1,n)
 	
 FinAlgoritmo
 
