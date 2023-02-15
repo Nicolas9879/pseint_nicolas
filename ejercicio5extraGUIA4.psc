@@ -15,24 +15,24 @@ Algoritmo ejercicio5extrav1_2
 	FinPara
 	
 	Repetir
-		escribir "posiciÛn" Sin Saltar
+		escribir "posici√≥n" Sin Saltar
 		leer posicion
 	Mientras Que posicion>19
 	
-	escribir "car·cter:"
+	escribir "car√°cter:"
 	leer cara
 	
 	lleno = 0
-	para k<-0 hasta 20-1 Hacer  // busca los subÌndices que esten vacios. esto ser· usado en la estructura "Si" que depende de esta variable
+	para k<-0 hasta 20-1 Hacer  // busca los sub√≠ndices que esten vacios. esto ser√° usado en la estructura "Si" que depende de esta variable
 		si v1[k] <> "" y  v1[k]<> " " Entonces
 			lleno = lleno+1
 		FinSi
 	FinPara
 	
-	si lleno = 20 Entonces // si todos los subÌndices est·n completos se mostrar· este mensaje y no se har· nada.
-		escribir "todos los subÌndices se encuentran ocupados :(" 
+	si lleno = 20 Entonces // si todos los sub√≠ndices est√°n completos se mostrar√° este mensaje y no se har√° nada.
+		escribir "todos los sub√≠ndices se encuentran ocupados :(" 
 	sino
-		si v1[posicion] <> "" y  v1[posicion]<> " " Entonces  //se asegura de que estÈ ocupada la posiciÛn antes de correr el cÛdigo.
+		si v1[posicion] <> "" y  v1[posicion]<> " " Entonces  //se asegura de que est√© ocupada la posici√≥n antes de correr el c√≥digo.
 			
 			
 			para j<-0  Hasta 20-1 Hacer
@@ -64,12 +64,12 @@ Algoritmo ejercicio5extrav1_2
 							FinPara
 						FinSi
 					FinSi
-					v1[posicion]=cara // finalmente el car·cter es asignado a la posiciÛn indicada.
+					v1[posicion]=cara // finalmente el car√°cter es asignado a la posici√≥n indicada.
 				FinSi
 			FinPara
-		SiNo // si el espacio(subÌndice) est· libre suceder· esto 
+		SiNo // si el espacio(sub√≠ndice) est√° libre suceder√° esto 
 			v1[posicion]=cara
-			escribir "°felicidades, el espacio estaba libre!"
+			escribir "¬°felicidades, el espacio estaba libre!"
 		FinSi
 		para k<-0  Hasta 20-1 Hacer
 			escribir "v1[",k,"]:",v1[k]  //encargado de escribir todo el vector por pantalla
